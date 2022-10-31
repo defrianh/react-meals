@@ -1,0 +1,35 @@
+.meal-desc, .meal-ingredient {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+}
+.meal-desc h1 ,.meal-ingredient h1 {
+    text-align: left;
+    font-size: 20pt;
+}
+.meal-img {
+    height: fit-content;
+}
+.meal-img img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    height: 300px;
+}
+.meal-ingredient ul {
+   list-style: none;
+   padding-left: 0;
+}
+.meal-ingredient ul li {
+    padding: 5px;
+    border-bottom: 10x solid #d4d4d4;
+}
+.meal-ingredient ul li .measure {
+    font-weight: bold;
+}
+.meal-ingredient{
+    margin-bottom: 20px;
+}
